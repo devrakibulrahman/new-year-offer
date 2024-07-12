@@ -204,7 +204,7 @@
 
 .pl-da-ti-content .pl-da-ti-banner{
     width: 100%;
-    height: 482px;
+    height: 472px;
     background-image: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
@@ -246,3 +246,101 @@
 }
 
 /* -------------------------- place, date and time section end --------------------------- */
+
+/* -------------------------- new best offer section start --------------------------- */
+
+#new-best-offer-section{
+    width: 100%;
+    height: 100vh;
+}
+
+.ne-be-of-content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ne-be-of-content .best-offer-details{
+    width: 393px;
+    height: auto;
+    margin-right: 70px;
+}
+
+.ne-be-of-content .best-offer-details .best-offer-sub-heading{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.ne-be-of-content .best-offer-details .best-offer-heading{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+    margin-bottom: 22px;
+}
+
+.ne-be-of-content .best-offer-details .best-offer-para{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #070211;
+    opacity: 0.6;
+}
+
+.ne-be-of-content .best-offer-img-box{
+    width: 463px;
+    height: 463px;
+    border: 15px solid #FF0000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 118px;
+}
+
+.ne-be-of-content .best-offer-img-box .best-offer-img{
+    width: 364px;
+    height: 364px;
+}
+
+.ne-be-of-content .best-offer-happy-new-year{
+    width: 276px;
+    height: auto;
+    margin-top: 112px;
+}
+
+.ne-be-of-content .best-offer-happy-new-year .year{
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+.ne-be-of-content .best-offer-happy-new-year .year-para{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #070211;
+    opacity: 0.6;
+    margin-bottom: 43px;
+}
+
+.ne-be-of-content .best-offer-happy-new-year .year-img-box{
+    width: 114px;
+    height: 114px;
+}
+
+.ne-be-of-content .best-offer-happy-new-year .year-img-box .year-img{
+    width: 100%;
+    height: 100%;
+}
+
+/* -------------------------- new best offer section end --------------------------- */

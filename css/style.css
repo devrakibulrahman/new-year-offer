@@ -604,3 +604,82 @@
 
 
 /* -------------------------- subscribe newsletter section end --------------------------- */
+
+/* -------------------------- footer section start --------------------------- */
+
+#footer-section{
+    width: 100%;
+    height: 60vh;
+    background-color: #070211;
+}
+
+.footer-content{
+    width: 100%;
+    height: 60vh;
+}
+
+.footer-content .footer-details{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 110px;
+    margin-bottom: 50px;
+}
+
+.footer-content .footer-details .office-address .footer-off-add{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.footer-content .footer-details .footer-contact .footer-contact-para{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.footer-content .footer-details .footer-contact .icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-content .footer-details .footer-contact .footer-con-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.footer-content .footer-social-icon{
+    width: 100%;
+    padding: 48px 0 48px;
+    text-align: center;
+    border-top:  1px solid rgba(255, 255, 255, 0.15);
+    border-bottom:  1px solid rgba(255, 255, 255, 0.15);
+    margin-bottom: 50px;
+}
+
+.footer-content .footer-social-icon .social-icon{
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.footer-content .footer-copyright{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-content .footer-copyright .footer-copy-para {
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+/* -------------------------- footer section end --------------------------- */

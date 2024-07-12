@@ -437,3 +437,67 @@
 }
 
 /* -------------------------- holiday sale section end --------------------------- */
+
+/* -------------------------- best gift section start --------------------------- */
+
+#best-gift-section{
+    width: 100%;
+    height: 135vh;
+}
+
+.the-best-gift-content{
+    width: 100%;
+    height: 100vh;
+}
+
+.the-best-gift-content .the-be-gi-details{
+    width: 896px;
+    height: auto;
+    margin-bottom: 48px;
+}
+
+.the-best-gift-content .the-be-gi-details .the-be-gi-sub-header{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: #FF0000;
+}
+
+.the-best-gift-content .the-be-gi-details .the-be-gi-heading{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+    margin-bottom: 22px;
+}
+
+.the-best-gift-content .the-be-gi-details .the-be-gi-para{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #070211;
+    opacity: 0.6;
+}
+
+.the-best-gift-content .the-be-gi-card-container{
+    width: 100%;
+    height: 900px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+}
+
+.the-best-gift-content .the-be-gi-card-container .card{
+    width: 464px;
+    height: 470px;
+    cursor: pointer;
+}
+
+.the-best-gift-content .the-be-gi-card-container .card .card-img{
+    width: 100%;
+    height: 100%;
+}
+
+/* -------------------------- best gift section end --------------------------- */

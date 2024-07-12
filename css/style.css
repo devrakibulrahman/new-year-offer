@@ -65,3 +65,49 @@
 }
 
 /* -------------------------- header section end --------------------------- */
+
+/* -------------------------- discount section start --------------------------- */
+#discount-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.discount-heading{
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    color: #FF0000;
+    margin-bottom: 48px;
+}
+
+.discount-para{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+.discount-category-heading2{
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+    margin-bottom: 48px;
+}
+
+.dis-img-box{
+    width: 802px;
+    height: 500px;
+}
+
+.dis-img-box .dis-img{
+    width: 100%;
+    height: 100%;
+}
+
+/* -------------------------- discount section end --------------------------- */

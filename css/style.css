@@ -501,3 +501,106 @@
 }
 
 /* -------------------------- best gift section end --------------------------- */
+
+/* -------------------------- subscribe newsletter section start --------------------------- */
+
+#subscribe-newsletter-section{
+    width: 100%;
+    height: 75vh;
+}
+
+.sub-new-content{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-new-content .sub-new-container{
+    width: 100%;
+    height: 616px;
+    background-color: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sub-new-content .sub-new-container .email-img{
+    width: 150px;
+    height: 150px;
+    margin: 80px 0px 40px;
+}
+
+.sub-new-content .sub-new-container .email-img .el-img{
+    width: 100%;
+    height: 100%;
+}
+
+.sub-new-content .sub-new-container .sub-new-details{
+    width: 898px;
+    height: auto;
+    margin-bottom: 48px;
+}
+
+.sub-new-content .sub-new-container .sub-new-details .sub-new-heading{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+    margin-bottom: 22px;
+}
+
+.sub-new-content .sub-new-container .sub-new-details .sub-new-para{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    color: #070211;
+    opacity: 0.6;
+}
+
+.sub-new-content .sub-new-container .sub-new-input-submit{
+    width: 700px;
+    height: 72px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.sub-new-content .sub-new-container .sub-new-input-submit .el-input{
+    width: 460px;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 25px 47px 25px 30px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #070211;
+    opacity: 0.3;
+    position: absolute;
+    left: 10px;
+    background-color:#FFFFFF; 
+}
+
+.sub-new-content .sub-new-container .sub-new-input-submit .sb-btn{
+    width: 220px;
+    height: 72px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+
+/* -------------------------- subscribe newsletter section end --------------------------- */

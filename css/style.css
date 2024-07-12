@@ -186,3 +186,63 @@
 }
 
 /* -------------------------- party section end --------------------------- */
+
+/* -------------------------- place, date and time section start --------------------------- */
+
+#place-date-time-section{
+    width: 100%;
+    height: 50vh;
+}
+
+.pl-da-ti-content{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pl-da-ti-content .pl-da-ti-banner{
+    width: 100%;
+    height: 482px;
+    background-image: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.pl-da-ti-content .pl-da-ti-banner .pl-da-ti-details{
+    width: auto;
+    height: 272px;
+}
+
+.pl-da-ti-content .pl-da-ti-banner .pl-da-ti-details .pl-da-ti-text{
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    color:#070211;
+    margin-bottom: 64px;
+}
+
+.pl-da-ti-content .pl-da-ti-banner .pl-da-ti-details .pl-da-ti-text .pl-da-ti-color{
+    color: #FF0000;
+}
+
+.pl-da-ti-content .pl-da-ti-banner .pl-da-ti-details .pl-da-ti-link{
+    display: inline-block;
+    background-color: #FF0000;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* -------------------------- place, date and time section end --------------------------- */
